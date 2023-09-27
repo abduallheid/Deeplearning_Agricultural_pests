@@ -1,4 +1,4 @@
-# Application of agricultural pest classification
+# Application of agricultural pest classification Version==1.1
 DEEP learning App using CNN Algorithm to Classify Insect Pests Images  
 #### Classification of images of agricultural insect pests targeting strategic crops with 12 different types of insects
 [Visit APP ](https://deeplearningagriculturalpests-abdo-rawak.streamlit.app/)
