@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st 
 import time
 from tensorflow.keras.models import load_model
-
+import pytest
 st.info("Develpoed by Abdallh Rawak")
 # upload the model
 MODEL= load_model("pest.h5")
