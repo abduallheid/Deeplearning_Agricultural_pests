@@ -17,7 +17,7 @@ st.text("classify images using the cnn algorithm with 12 different types of inse
 def predict(image_D):
 	
 	size=(256,256)
-	image=ImageOps.fit(image_D,size,Image.ANTIALIAS)
+	image=ImageOps.fit(image_D,size,Image.LANCZOS)
 	img=np.asarray(image)
 	img_reshape=img[np.newaxis,...]
 
